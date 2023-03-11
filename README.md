@@ -1,4 +1,3 @@
-# VetaYatsenko
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,14 +15,29 @@
 				<li><a href="#contact">Contact Me</a></li>
 			</ul>
 		</nav>
+		<div class="hero">
+			<h1>Hi, I'm [Your Name]</h1>
+			<p>I'm an illustrator based in [Your City].</p>
+			<button class="cta">View My Work</button>
+		</div>
 	</header>
 	<main>
 		<section id="about">
-			<h1>About Me</h1>
-			<p>Hi, my name is [Your Name] and I am an illustrator based in [Your City]. I specialize in [Your Illustration Style] and have been creating illustrations for [Number of Years] years. I am passionate about [Your Interests or Hobbies] and love to incorporate them into my work whenever possible.</p>
+			<div class="about-content">
+				<h2>About Me</h2>
+				<p>Hi, my name is [Your Name] and I am an illustrator based in [Your City]. I specialize in [Your Illustration Style] and have been creating illustrations for [Number of Years] years. I am passionate about [Your Interests or Hobbies] and love to incorporate them into my work whenever possible.</p>
+			</div>
+			<div class="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>Illustration</li>
+					<li>Graphic Design</li>
+					<li>Web Design</li>
+				</ul>
+			</div>
 		</section>
 		<section id="work">
-			<h1>My Work</h1>
+			<h2>My Work</h2>
 			<div class="gallery">
 				<a href="image1.jpg"><img src="thumb1.jpg"></a>
 				<a href="image2.jpg"><img src="thumb2.jpg"></a>
@@ -34,7 +48,7 @@
 			</div>
 		</section>
 		<section id="contact">
-			<h1>Contact Me</h1>
+			<h2>Contact Me</h2>
 			<form method="post" action="submit.php">
 				<label for="name">Name:</label>
 				<input type="text" name="name" required>
@@ -44,11 +58,4 @@
 				<textarea name="message" required></textarea>
 				<input type="submit" value="Send">
 			</form>
-		</section>
-	</main>
-	<footer>
-		<p>Copyright © [Your Year]
-		[Your Name]. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+		
